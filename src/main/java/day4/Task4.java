@@ -13,12 +13,12 @@ public class Task4 {
         for (int i = 0; i < 100; i++) {
             array[i] = rand.nextInt(10000);
         }
-        while (count < 8) {
+        while (count < 98) {
             for (int i = (array.length - 3) - count; i <= (array.length - 1) - count; i++) {
                 sum = sum + array[i];
                 if (sum > sumMax) {
                     sumMax = sum;
-                    index = i;
+                    index = i-2;
                 }
             }
             sum = 0;
