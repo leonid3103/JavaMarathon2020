@@ -9,6 +9,7 @@ public class Task1_2 {
         for (int i = 1; i <= 20000; i++) {
             s = s + " " + Integer.toString(i);
         }
+
         System.out.println(s);
         long timeSpent = System.currentTimeMillis() - startTime;
         System.out.println("программа выполнялась " + timeSpent + " миллисекунд");

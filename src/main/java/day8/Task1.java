@@ -11,6 +11,7 @@ public class Task1 {
         for (int i = 0; i <= 20000; i++) {
             sb.append(i).append(" ");
         }
+
         System.out.println(sb.toString());
         long timeSpent = System.currentTimeMillis() - startTime;
         System.out.println("программа выполнялась " + timeSpent + " миллисекунд");
