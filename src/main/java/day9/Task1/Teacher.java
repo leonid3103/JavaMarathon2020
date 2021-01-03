@@ -11,6 +11,7 @@ private String subjectName;
         super(name);
         this.subjectName = subjectName;
     }
+
     @Override
     public void printInfo() {
         super.printInfo();
